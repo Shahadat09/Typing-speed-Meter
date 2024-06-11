@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+
+.typing-container, .stats-container {
+    margin: 20px 0;
+}
+
+.text-to-type p {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.stat {
+    margin: 10px 0;
+}
+
+.start-btn, .restart-btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.restart-btn {
+    background-color: #28a745;
+}
+
+.thank-you-msg {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #28a745;
+}
